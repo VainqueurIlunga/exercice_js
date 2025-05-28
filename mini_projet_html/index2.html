@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fiche DOM - JavaScript</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      h2 {
+        color: #007acc;
+      }
+      code {
+        background: #f4f4f4;
+        padding: 2px 6px;
+        border-radius: 4px;
+        display: inline-block;
+      }
+      .card {
+        background: #eef;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Fiche Récap : DOM avec JavaScript</h1>
+
+    <div class="card">
+      <h2>1. Sélectionner des éléments</h2>
+      <ul>
+        <li><code>document.getElementById("id")</code></li>
+        <li><code>document.getElementsByClassName("classe")</code></li>
+        <li><code>document.querySelector("#id / .classe / tag")</code></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>2. Modifier le contenu</h2>
+      <ul>
+        <li><code>element.textContent = "Nouveau texte"</code></li>
+        <li>
+          <code>element.innerHTML = "&lt;strong&gt;HTML&lt;/strong&gt;"</code>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. Lire ou changer un champ &lt;input&gt;</h2>
+      <ul>
+        <li><code>element.value</code></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. Modifier le style</h2>
+      <ul>
+        <li><code>element.style.color = "blue"</code></li>
+        <li><code>element.style.fontSize = "20px"</code></li>
+        <li><code>element.style.display = "none"</code></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>5. Créer et ajouter des éléments</h2>
+      <ul>
+        <li><code>document.createElement("p")</code></li>
+        <li><code>parent.appendChild(enfant)</code></li>
+      </ul>
+    </div>
+  </body>
+</html>
